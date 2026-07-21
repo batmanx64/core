@@ -34,7 +34,9 @@
 
 namespace NSStringUtils
 {
-	const wchar_t g_hex_values[16] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
+	// 高效字符串构建器实现
+// 使用malloc/realloc管理动态缓冲区，提供XML节点/属性/编码输出能力
+const wchar_t g_hex_values[16] = { '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F' };
 	static std::wstring	g_bstr_nodeopen		= L"<";
 	static std::wstring	g_bstr_nodeclose	= L">";
 	static std::wstring	g_bstr_nodeopen_slash	= L"</";

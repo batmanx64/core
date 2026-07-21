@@ -31,6 +31,8 @@
  */
 #include "StreamWriter.h"
 
+// 带缓冲的文件流写入器实现
+// 缓冲区满时自动Flush到文件，减少系统调用次数
 namespace NSFile
 {
 	CStreamWriter::CStreamWriter(size_t bufferSize)

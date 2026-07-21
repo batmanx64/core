@@ -32,6 +32,8 @@
 
 #include "./BaseThreadMonitor.h"
 
+// 线程监控器实现，单例模式
+// 维护所有运行中线程的列表，支持线程查找和释放回调
 namespace NSThreads
 {
 	CBaseThreadMonitor::CBaseThreadMonitor()

@@ -38,6 +38,8 @@
 
 #include "../../Common/kernel_config.h"
 
+// 高效的字符串构建器
+// 使用预分配缓冲区避免频繁内存分配，支持XML节点/属性写入
 namespace NSStringUtils
 {
 	class KERNEL_DECL CStringBuilderA

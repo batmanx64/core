@@ -37,6 +37,8 @@
 #include <vector>
 #include "../../Common/kernel_config.h"
 
+// UTF-32字符串类
+// 以uint32_t存储Unicode码点，支持与std::wstring互转
 namespace NSStringUtils
 {
 	class KERNEL_DECL CStringUTF32

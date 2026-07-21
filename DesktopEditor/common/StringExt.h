@@ -101,6 +101,8 @@ static std::wstring format(const wchar_t* fmt, ...)
 } // namespace NSStrings
 #endif
 
+// 字符串编码转换与扩展工具
+// 支持单字节编码(CP125x等)与Unicode互转，UTF-8/16/32转换，字符串分割等
 namespace NSStringExt
 {
 class KERNEL_DECL CConverter

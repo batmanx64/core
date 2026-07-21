@@ -32,6 +32,9 @@
 #include "CPEncodings/CodePage.h"
 #include "StringExt.h"
 
+// 字符串编码转换实现
+// 支持CP1251/CP1252等多字节编码到Unicode的转换
+// 提供UTF-8/16/32之间的互转
 namespace NSStringExt
 {
 #define NSSTRING_COMMON_CP(UnicodeMapCP, lCount, pData) \

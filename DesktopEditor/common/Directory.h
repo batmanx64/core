@@ -60,6 +60,8 @@
 #endif
 
 #include "../../Common/kernel_config.h"
+// 跨平台目录操作
+// 获取文件/目录列表、创建/删除/复制目录、检查目录是否存在
 namespace NSDirectory
 {
 	KERNEL_DECL std::vector<std::wstring> GetFiles(std::wstring strDirectory, bool bIsRecursion = false);

@@ -29,6 +29,7 @@
  * terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
  *
  */
+// 跨平台基础线程抽象类，封装Windows线程和POSIX线程(pthreads)的差异
 #ifndef _BUILD_BASETHREAD_H_
 #define _BUILD_BASETHREAD_H_
 

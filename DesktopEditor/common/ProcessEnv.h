@@ -36,6 +36,8 @@
 #include "../xml/include/xmlutils.h"
 #include <string>
 
+// 进程环境配置管理
+// 以键值对形式加载/保存XML配置，支持bool/int/string类型属性读写
 namespace NSProcessEnv
 {
 	namespace Converter

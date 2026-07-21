@@ -37,6 +37,8 @@
 #include <functional>
 #include <list>
 
+// 线程监控器（单例）
+// 管理所有CBaseThread实例的注册/注销，支持按线程ID查找
 namespace NSThreads
 {
 	class CBaseThreadInfo

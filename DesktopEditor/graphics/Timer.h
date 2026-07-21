@@ -39,6 +39,8 @@
 #include "mach/mach_time.h"
 #endif
 
+// 定时器模块
+// 基于CBaseThread实现，周期性调用OnTimer回调
 namespace NSTimers
 {
 	KERNEL_DECL DWORD GetTickCount();

@@ -47,6 +47,8 @@
 
 #endif
 
+// 跨平台线程实现
+// 通过平台无关的接口封装Windows CreateThread和pthread_create
 namespace NSThreads
 {
 	class CThreadDescriptor

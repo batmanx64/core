@@ -32,6 +32,7 @@
 #include "ByteBuilder.h"
 #include "File.h"
 
+// 字节缓冲区构建器/读取器实现
 namespace NSMemoryUtils
 {
     CByteBuilder::CByteBuilder()

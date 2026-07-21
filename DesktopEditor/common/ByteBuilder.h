@@ -39,6 +39,9 @@
 
 #include "../../Common/kernel_config.h"
 
+// 字节缓冲区构建器与读取器
+// CByteBuilder: 写入字符串、整数等数据到动态缓冲区
+// CByteReader:  从缓冲区中顺序读取字符串、整数等数据
 namespace NSMemoryUtils
 {
     class KERNEL_DECL CByteBuilder

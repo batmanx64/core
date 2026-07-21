@@ -38,6 +38,8 @@
 #define VALUE_STRINGIFY(d) L##d
 #define VALUE_TO_STR(v)    VALUE_STRINGIFY(v)
 
+// 系统工具
+// 环境变量读取、应用数据目录获取、系统已知目录路径获取
 namespace NSSystemUtils
 {
 	static const wchar_t* gc_EnvApplicationName = L"APPLICATION_NAME";

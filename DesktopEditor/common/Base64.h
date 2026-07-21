@@ -38,6 +38,7 @@
 
 #include "../../Common/kernel_config.h"
 
+// Base64和Base32编解码工具
 namespace NSBase64
 {
 	const int B64_BASE64_FLAG_NONE		= 0;

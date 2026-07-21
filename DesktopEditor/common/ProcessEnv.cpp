@@ -35,6 +35,8 @@
 #include "./StringBuilder.h"
 #include "./File.h"
 
+// 进程环境配置实现
+// 内部使用map<string,string>存储配置项，支持从XML加载和序列化为XML
 namespace NSProcessEnv
 {
 	class CProps

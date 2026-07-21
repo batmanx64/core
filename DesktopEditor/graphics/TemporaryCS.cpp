@@ -32,6 +32,7 @@
 #include "TemporaryCS.h"
 #include "../common/Types.h"
 
+// Windows下使用CRITICAL_SECTION，非Windows下使用pthread递归互斥锁
 namespace NSCriticalSection
 {
     class CRITICAL_SECTION_NATIVE

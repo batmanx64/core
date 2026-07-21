@@ -39,6 +39,8 @@
 #include <libgen.h>
 #endif
 
+// 跨平台路径操作实现
+// 支持Windows和Unix风格路径，自动处理路径分隔符
 namespace NSSystemPath
 {
 	std::wstring GetDirectoryName(const std::wstring& strFileName)

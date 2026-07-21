@@ -34,6 +34,8 @@
 
 #include "../../Common/kernel_config.h"
 
+// 跨平台临界区（互斥锁）封装
+// 提供线程同步原语，内部使用Windows CRITICAL_SECTION或pthreads mutex
 namespace NSCriticalSection
 {
     class CRITICAL_SECTION_NATIVE;
@@ -67,6 +69,8 @@ namespace NSCriticalSection
     };
 }
 
+// RAII风格的临界区辅助类
+// 构造时自动Enter，析构时自动Leave，确保异常安全
 class KERNEL_DECL CTemporaryCS
 {
 public:

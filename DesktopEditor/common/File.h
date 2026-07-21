@@ -68,6 +68,10 @@
 
 std::wstring KERNEL_DECL CorrectPathW(const std::wstring& path);
 
+// 跨平台文件操作与编码转换核心模块
+// CUtf8Converter: UTF-8 <-> Unicode <-> UTF-16 编解码
+// CFileBinary:   二进制文件读写、复制、删除等
+// CBase64Converter: Base64编解码封装
 namespace NSFile
 {
 #define WriteUtf16_WCHAR(code, p)				\

@@ -37,6 +37,7 @@
 //#define _CAN_USE_COM_THREADS
 #endif
 
+// 定时器实现：基于CBaseThread的子线程，按固定间隔触发OnTimer回调
 namespace NSTimers
 {    
 	// CLOCK_MONOTONIC defined ONLY since macOS 10.12!!! (crash on earlier version)

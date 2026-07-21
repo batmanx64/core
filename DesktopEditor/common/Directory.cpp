@@ -55,6 +55,8 @@
 #include <string.h>
 #include "Directory.h"
 
+// 跨平台目录操作实现
+// 使用FindFirstFileW(Win) / opendir(Linux/Mac)遍历目录
 namespace NSDirectory
 {
 #if !defined(_WIN32) && !defined (_WIN64)

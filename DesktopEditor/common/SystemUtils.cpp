@@ -102,6 +102,8 @@ std::wstring getDirectoryPathMac(const NSSystemUtils::SystemDirectoryType& type)
 #include <unistd.h>
 #endif
 
+// 系统工具实现
+// 环境变量读取、应用数据目录、系统已知目录(Documents/Downloads/Desktop)
 namespace NSSystemUtils
 {
 	std::string GetEnvVariableA(const std::wstring& strName)

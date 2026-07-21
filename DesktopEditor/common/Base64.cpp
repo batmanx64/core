@@ -31,6 +31,7 @@
  */
 #include "Base64.h"
 
+// Base64/Base32编解码实现
 namespace NSBase64
 {
 	int Base64EncodeGetRequiredLength(int nSrcLen, DWORD dwFlags)

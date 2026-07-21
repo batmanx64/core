@@ -34,6 +34,8 @@
 #include "File.h"
 #include "StringBuilder.h"
 
+// 带缓冲的文件流写入器
+// 继承自CFileBinary和CStringBuilder，先写入内存缓冲区，Flush时批量写入文件
 namespace NSFile
 {
 	class KERNEL_DECL CStreamWriter : public CFileBinary, public NSStringUtils::CStringBuilder

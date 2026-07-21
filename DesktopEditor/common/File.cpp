@@ -77,7 +77,9 @@
 #include <unistd.h>
 #endif
 
-// реализация возможности подмены определения GetTempPath
+// 文件操作与编码转换实现
+// 可覆盖临时路径（通过g_overrideTmpPath）
+// 实现 GetTempPath
 std::wstring g_overrideTmpPath = L"";
 
 #include "File.h"

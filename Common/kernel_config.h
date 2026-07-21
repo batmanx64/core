@@ -29,6 +29,8 @@
  * terms at http://creativecommons.org/licenses/by-sa/4.0/legalcode
  *
  */
+// kernel内核库的导出/导入宏定义
+// 用于控制KERNEL_DECL符号的导出(dllexport)或导入(dllimport)
 #ifndef _KERNEL_CONFIG_H_
 #define _KERNEL_CONFIG_H_
 

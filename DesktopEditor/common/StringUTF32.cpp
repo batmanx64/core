@@ -32,6 +32,8 @@
 #include "StringUTF32.h"
 #include "StringExt.h"
 
+// UTF-32字符串实现
+// 底层使用vector<uint32_t>存储Unicode码点
 using namespace std;
 using namespace NSStringUtils;
 

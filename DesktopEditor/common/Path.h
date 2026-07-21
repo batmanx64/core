@@ -36,6 +36,8 @@
 #include <string.h>
 #include "../../Common/kernel_config.h"
 
+// 跨平台路径操作工具
+// 提供路径组合、规范化、目录名/文件名提取等函数
 namespace NSSystemPath
 {
 	KERNEL_DECL std::wstring GetDirectoryName(const std::wstring& strFileName);
